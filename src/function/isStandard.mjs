@@ -67,6 +67,7 @@ export default function isStandard(url = new URL(), headers = {}, platform = "Un
 			switch (platform) {
 				case "Max":
 				case "HBOMax":
+				case "Disney+":
 					standard = false;
 					break;
 				case "Viki":
